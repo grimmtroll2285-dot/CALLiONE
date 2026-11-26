@@ -2,7 +2,7 @@
 
 <h1 align="center">🎮 CALLiONE</h1>
 <p align="center"><b>One PS5. One dashboard. Your games.</b><br>PLAY NO LIMIT · by SirenaGoloviy</p>
-<p align="center">🧪 Private testing · 🌍 English / Русский · 🛠️ Built from TITAN</p>
+<p align="center">✅ Tester-approved · 🌍 English / Русский · 🛠️ Built from TITAN</p>
 
 CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one interface for a jailbroken PS5. Each format keeps its own launch path.
 
@@ -16,7 +16,7 @@ CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one in
 
 📦 System installation and homebrew copying are separate actions. CALLiONE also provides installation progress, storage tools, diagnostic logs and game-specific PlayGo / backport settings.
 
-**🧪 Announcement only:** public builds and source code are not published here yet. Compatibility testing is ongoing. PS4Mount is a **separate experiment**, not part of the main build.
+**✅ Tester-approved build:** testers report that the included features work as expected on their consoles. Compatibility still depends on the firmware, game version, package and backport. PS4Mount is integrated into this build with manual controls.
 
 ### 🖥️ Inside CALLiONE
 
@@ -36,14 +36,15 @@ CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one in
 <details>
 <summary><b>📖 Quick guide for testers</b></summary>
 
-1. Restart PS5, run your usual jailbreak and send the supplied CALLiONE ELF through Payload Manager. Do not load extra copies of TITAN, kstuff or ShadowMount alongside it.
+1. Fully restart the PS5, run your usual jailbreak and send the CALLiONE 1.1 ELF through Payload Manager. Do not run separate copies of kstuff, Kraken, ShadowMountPlus or PS4Mount alongside it.
 2. Open the CALLiONE tile or `http://PS5-IP:8098/`.
 3. **Add games → Install to PS5:** select a compatible FPKG on USB or in `/data/pkg-install/`. The system chooses the destination; wait for installation to finish before disconnecting USB.
-4. **Copy to homebrew:** prepares a separate Kraken library. Its roots are `/data/homebrew/` and `homebrew/` on supported external drives. Images use ShadowMountPlus.
+4. **Copy to homebrew:** prepares the Kraken library separately from system installation. Its roots are `/data/homebrew/` and `homebrew/` on supported external drives. Images use ShadowMountPlus.
+5. **PS4 USB:** start PS4Mount from its page, select a game and press **Mount**. Close the game, then press **Unmount**. Do not use Rest Mode while PS4Mount is active.
 
 **FTP:** upload to `/data/pkg-install/`, which Kraken does not scan. Finish the transfer before installing; `.part` → `.pkg` is an optional way to mark completion.
 
-**Report a problem:** build + firmware, Title ID/version, format, internal/USB drive, steps, photo and `/data/callione/callione.log`. Compatibility varies; a backport catalog requires configured compatible sources.
+**Report a problem:** build + firmware, Title ID/version, format, internal/USB drive, steps, photo and `/data/callione/callione.log`. Compatibility may vary by firmware and game build. A backport catalog requires configured compatible sources. Testers report that the included functions work on their consoles; this does not guarantee every game will work.
 
 </details>
 
@@ -70,18 +71,19 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)** and **[@script_durova](ht
 - 💿 **Поддерживаемые образы, включая .exfat** — ShadowMountPlus.
 - 🛠️ Прогресс установки, хранилище, журналы, выбор игр для PlayGo и настройки бэкпортов. Каталогу бэкпортов нужны настроенные совместимые источники.
 
-**🧪 Пока закрытое тестирование.** Здесь только анонс и скриншоты; публичных ELF и исходников ещё нет. PS4Mount сделан отдельным экспериментом и не входит в основной CALLiONE.
+**✅ Сборка проверена тестерами:** по их сообщениям, основные функции работают на их консолях. Совместимость зависит от прошивки, версии игры, пакета и бэкпорта. PS4Mount включён в эту сборку и управляется вручную.
 
 ### 📖 Как пользоваться тестовой сборкой
 
-1. Полностью перезагрузите PS5, выполните свой jailbreak и отправьте выданный ELF через Payload Manager. Дополнительные TITAN, kstuff и ShadowMount поверх не запускайте.
+1. Полностью перезагрузите PS5, выполните привычный jailbreak и запустите ELF CALLiONE 1.1 через Payload Manager. Не запускайте отдельно kstuff, Kraken, ShadowMountPlus или PS4Mount поверх CALLiONE.
 2. Откройте плитку CALLiONE или `http://IP-PS5:8098/`.
 3. **Добавить игры → Установить в систему:** выберите совместимый FPKG на USB или в `/data/pkg-install/`. Место выбирает PS5. До завершения установки не отключайте накопитель.
-4. **Скопировать в homebrew** — отдельный режим для Kraken. Он использует `/data/homebrew/` и `homebrew/` на поддерживаемых внешних дисках. Образы обслуживает ShadowMountPlus.
+4. **Скопировать в homebrew** — отдельный от системной установки режим для Kraken. Он использует `/data/homebrew/` и `homebrew/` на поддерживаемых внешних дисках. Образы обслуживает ShadowMountPlus.
+5. **PS4 USB:** запустите PS4Mount на его странице, выберите игру и нажмите **«Монтировать»**. Закройте игру и нажмите **«Размонтировать»**. Пока PS4Mount активен, не включайте режим покоя.
 
 📂 **По FTP:** загружайте установочные PKG в `/data/pkg-install/` — Kraken эту папку не сканирует. Дождитесь полной передачи. При желании загружайте как `.part`, затем переименуйте в `.pkg`.
 
-🩺 **При ошибке:** версия сборки и прошивки, Title ID/версия игры, формат, внутренний диск или USB, действия перед сбоем, фото и `/data/callione/callione.log`. Совместимость всех игр и прошивок пока не подтверждена.
+🩺 **При ошибке:** версия сборки и прошивки, Title ID/версия игры, формат, внутренний диск или USB, действия перед сбоем, фото и `/data/callione/callione.log`. Тестеры сообщают, что основные функции работают на их консолях. Это не гарантирует совместимость каждой игры и каждой прошивки.
 
 📸 Скриншоты выше — настоящий предпросмотр интерфейса на ПК с демонстрационными данными, без консоли. Баннер — сгенерированная иллюстрация.
 
