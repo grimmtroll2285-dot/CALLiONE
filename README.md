@@ -6,7 +6,7 @@
 
 CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one interface for a jailbroken PS5. Each format keeps its own launch path.
 
-[Download CALLiONE 1.1](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/1.0) · [Русский](#callione-ru)
+[Download CALLiONE 1.1](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/1.0) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
 
 ### ⚡ What it does
 
@@ -85,6 +85,8 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)** and **[@script_durova](ht
 - 🛠️ Прогресс установки, хранилище, журналы, выбор игр для PlayGo и настройки бэкпортов. Каталогу бэкпортов нужны настроенные совместимые источники.
 
 **✅ Сборка проверена тестерами:** по их сообщениям, основные функции работают на их консолях. Совместимость зависит от прошивки, версии игры, пакета и бэкпорта. PS4Mount включён в эту сборку и управляется вручную.
+
+[Открыть интерактивное демо](https://grimmtroll2285-dot.github.io/CALLiONE/) · работает в браузере без подключения к PS5.
 
 ### 🆕 Что изменилось в 1.1
 
