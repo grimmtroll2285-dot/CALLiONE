@@ -21,9 +21,15 @@ Thank you for supporting the project!
 </td></tr>
 </table>
 
-[📥 Download CALLiONE 1.1.1](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.1) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
+[📥 Download CALLiONE 1.1.2](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.2) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
 
-### 🆕 CALLiONE 1.1.1 is available
+### 🆕 CALLiONE 1.1.2 is available
+
+🖥️ Compact Add games layout, clearer PS4 USB controls, live RU/EN switching and a dedicated Backports icon.
+
+🎮 Enable the PS4 USB checkbox to mount all discovered eligible games while the interface stays open. Close games before mounting. The checkbox resets when the page is reloaded.
+
+🔧 The project owner reports that kstuff test4 resolves crashes on firmware 12.xx. This has not been independently console-tested here.
 
 ⚙️ Bundled kstuff updated to **1.15-dr-test4**. Both ELF build stages and embedded input identity were verified. Console testing of this update is pending.
 
@@ -94,11 +100,17 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)** and **[@script_durova](ht
 <details>
 <summary><b>🇷🇺 Русский — нажмите, чтобы раскрыть</b></summary>
 
-### 🆕 Вышел CALLiONE 1.1.1
+### 🆕 Вышел CALLiONE 1.1.2
+
+🖥️ Компактная страница добавления игр, более удобная вкладка PS4 USB, переключение RU/EN и отдельный значок бэкпортов.
+
+🎮 Галочка в PS4 USB монтирует все доступные найденные игры, пока открыт интерфейс. Перед монтированием закройте игры. При перезагрузке страницы галочка сбрасывается.
+
+🔧 По сообщению владельца проекта, kstuff test4 убирает краши на 12.xx. Независимой проверки на консоли здесь не проводилось.
 
 ⚙️ Встроенный kstuff обновлён до **1.15-dr-test4**. Проверены оба этапа сборки ELF и встраивание файла. Проверка обновления на консоли ещё предстоит.
 
-[📥 Скачать CALLiONE 1.1.1](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.1)
+[📥 Скачать CALLiONE 1.1.2](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.2)
 
 ### 🎮 Что такое CALLiONE
 
