@@ -18,6 +18,10 @@ Thank you for supporting the project!
 
 <code>2200 7009 4991 7206</code>
 
+**💳 Support tester [ImN3k1t](https://github.com/ImN3k1t) · Поддержать тестировщика**
+
+<code>2200 0406 4717 8417</code>
+
 </td></tr>
 </table>
 
