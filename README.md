@@ -29,19 +29,15 @@ Thank you for supporting the project!
 
 [📥 Download CALLiONE 1.1.3](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.3) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
 
-### 🆕 CALLiONE 1.1.3 is available
+### 🆕 CALLiONE 1.1.3
 
-⚙️ Updated bundled kstuff to **1.15-12.60-dr-stable-mod-by-mrk**. The project owner reports flawless operation on firmware **12.xx** following their testing. Both ELF build stages and exact embedded kstuff identity were verified.
+⚙️ Bundled kstuff is now **1.15-12.60-dr-stable-mod-by-mrk**. Modification credited to **mrk**, as identified in the supplied filename.
 
-### CALLiONE 1.1.2
+🎮 The project owner reports **flawless operation on firmware 12.xx** following their testing.
 
-🖥️ Compact Add games layout, clearer PS4 USB controls, live RU/EN switching and a dedicated Backports icon.
+🖥️ Includes the compact Add games page, live RU/EN switching, a dedicated Backports icon and sequential PS4 USB mounting while the interface stays open. Close games before mounting. The checkbox resets when the page is reloaded.
 
-🎮 Enable the PS4 USB checkbox to mount all discovered eligible games while the interface stays open. Close games before mounting. The checkbox resets when the page is reloaded.
-
-🔧 The project owner reports that kstuff test4 resolves crashes on firmware 12.xx. This has not been independently console-tested here.
-
-⚙️ Bundled kstuff updated to **1.15-dr-test4**. Both ELF build stages and embedded input identity were verified. Console testing of this update is pending.
+📦 The release includes **CALLiONE-1.1.3.elf**, the full source archive, SHA-256 checksum and build verification report. Both ELF stages and the exact embedded kstuff were verified.
 
 ### ⚡ What it does
 
@@ -58,7 +54,6 @@ Thank you for supporting the project!
 
 ### 🆕 What changed in 1.1
 
-- Updated the bundled kstuff to **1.15-dr-test3-stable**.
 - Adapted selected Kraken Mount 0.4.0 fixes for metadata, settings, cache recovery and game startup sound.
 - Moved manual PS4Mount into the main dashboard under **PS4 USB**. Games are mounted only when selected.
 - Updated the CALLiONE avatar. PlayGo selection and separate local backport folders remain available.
@@ -83,7 +78,7 @@ Thank you for supporting the project!
 <details>
 <summary><b>📖 Quick start</b></summary>
 
-1. Fully restart the PS5, run your usual jailbreak and send the CALLiONE 1.1 ELF through Payload Manager. Do not run separate copies of kstuff, Kraken, ShadowMountPlus or PS4Mount alongside it.
+1. Fully restart the PS5, run your usual jailbreak and send the CALLiONE-1.1.3.elf through Payload Manager. Do not run separate copies of kstuff, Kraken, ShadowMountPlus or PS4Mount alongside it.
 2. Open the CALLiONE tile or `http://PS5-IP:8098/`.
 3. **Add games → Install to PS5:** select a compatible FPKG on USB or in `/data/pkg-install/`. The system chooses the destination; wait for installation to finish before disconnecting USB.
 4. **Copy to homebrew:** prepares the Kraken library separately from system installation. Its roots are `/data/homebrew/` and `homebrew/` on supported external drives. Images use ShadowMountPlus.
@@ -100,7 +95,7 @@ Thank you for supporting the project!
 
 Built on [TITAN](https://github.com/grimmtroll2285-dot/TITAN) and the TITAN CORE foundation by **devchmod**; [Kraken Mount](https://github.com/quer3q/kraken-mount) and [ampr-emu-ng](https://github.com/quer3q/ampr-emu-ng) by **quer3q**; [kstuff](https://github.com/EchoStretch/kstuff-lite), **EchoStretch** and contributors; [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) by **drakmor**; [PS4Mount](https://github.com/gasb07/ps4mount) by **gasb07**; community PlayGo work and the [PS5 payload SDK](https://github.com/ps5-payload-dev/sdk).
 
-Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real consoles. 🤝
+Special thanks to **[ImN3k1t](https://github.com/ImN3k1t)** for testing on real consoles. [Telegram](https://t.me/ImN3k1t) 🤝
 
 </details>
 
@@ -110,19 +105,15 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real cons
 <details>
 <summary><b>🇷🇺 Русский — нажмите, чтобы раскрыть</b></summary>
 
-### 🆕 Вышел CALLiONE 1.1.3
+### 🆕 CALLiONE 1.1.3
 
-⚙️ Встроенный kstuff обновлён до **1.15-12.60-dr-stable-mod-by-mrk**. По результатам тестирования автора проекта, на прошивках **12.xx работает идеально**. Проверены оба этапа сборки ELF и точное встраивание нового kstuff.
+⚙️ Встроен **kstuff 1.15-12.60-dr-stable-mod-by-mrk**. Модификация — **mrk**, согласно названию предоставленного файла.
 
-### CALLiONE 1.1.2
+🎮 По результатам тестирования автора проекта, **на прошивках 12.xx работает идеально**.
 
-🖥️ Компактная страница добавления игр, более удобная вкладка PS4 USB, переключение RU/EN и отдельный значок бэкпортов.
+🖥️ Компактная страница добавления игр, переключение RU/EN, отдельный значок бэкпортов и последовательное монтирование PS4 USB, пока открыт интерфейс. Перед монтированием закройте игры. При перезагрузке страницы галочка сбрасывается.
 
-🎮 Галочка в PS4 USB монтирует все доступные найденные игры, пока открыт интерфейс. Перед монтированием закройте игры. При перезагрузке страницы галочка сбрасывается.
-
-🔧 По сообщению владельца проекта, kstuff test4 убирает краши на 12.xx. Независимой проверки на консоли здесь не проводилось.
-
-⚙️ Встроенный kstuff обновлён до **1.15-dr-test4**. Проверены оба этапа сборки ELF и встраивание файла. Проверка обновления на консоли ещё предстоит.
+📦 В релизе доступны **CALLiONE-1.1.3.elf**, полный архив исходников, контрольная сумма SHA-256 и отчёт о проверке сборки. Проверены оба этапа ELF и точное встраивание нового kstuff.
 
 [📥 Скачать CALLiONE 1.1.3](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.3)
 
@@ -141,7 +132,6 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real cons
 
 ### 🆕 Что изменилось в 1.1
 
-- Встроенный kstuff обновлён до **1.15-dr-test3-stable**.
 - Перенесены отдельные исправления Kraken Mount 0.4.0 для метаданных, настроек, восстановления кеша и звука запуска.
 - PS4Mount теперь в основном интерфейсе, во вкладке **PS4 USB**. Игры монтируются вручную.
 - Обновлена аватарка. Выбор PlayGo по играм и отдельные папки для бэкпортов сохранены.
@@ -150,7 +140,7 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real cons
 
 ### 📖 Быстрый запуск
 
-1. Полностью перезагрузите PS5, выполните привычный jailbreak и запустите ELF CALLiONE 1.1 через Payload Manager. Не запускайте отдельно kstuff, Kraken, ShadowMountPlus или PS4Mount поверх CALLiONE.
+1. Полностью перезагрузите PS5, выполните привычный jailbreak и запустите CALLiONE-1.1.3.elf через Payload Manager. Не запускайте отдельно kstuff, Kraken, ShadowMountPlus или PS4Mount поверх CALLiONE.
 2. Откройте плитку CALLiONE или `http://IP-PS5:8098/`.
 3. **Добавить игры → Установить в систему:** выберите совместимый FPKG на USB или в `/data/pkg-install/`. Место выбирает PS5. До завершения установки не отключайте накопитель.
 4. **Скопировать в homebrew** — отдельный от системной установки режим для Kraken. Он использует `/data/homebrew/` и `homebrew/` на поддерживаемых внешних дисках. Образы обслуживает ShadowMountPlus.
