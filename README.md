@@ -27,9 +27,13 @@ Thank you for supporting the project!
 </td></tr>
 </table>
 
-[📥 Download CALLiONE 1.1.2](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.2) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
+[📥 Download CALLiONE 1.1.3](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.3) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
 
-### 🆕 CALLiONE 1.1.2 is available
+### 🆕 CALLiONE 1.1.3 is available
+
+⚙️ Updated bundled kstuff to **1.15-12.60-dr-stable-mod-by-mrk**. The project owner reports flawless operation on firmware **12.xx** following their testing. Both ELF build stages and exact embedded kstuff identity were verified.
+
+### CALLiONE 1.1.2
 
 🖥️ Compact Add games layout, clearer PS4 USB controls, live RU/EN switching and a dedicated Backports icon.
 
@@ -106,7 +110,11 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real cons
 <details>
 <summary><b>🇷🇺 Русский — нажмите, чтобы раскрыть</b></summary>
 
-### 🆕 Вышел CALLiONE 1.1.2
+### 🆕 Вышел CALLiONE 1.1.3
+
+⚙️ Встроенный kstuff обновлён до **1.15-12.60-dr-stable-mod-by-mrk**. По результатам тестирования автора проекта, на прошивках **12.xx работает идеально**. Проверены оба этапа сборки ELF и точное встраивание нового kstuff.
+
+### CALLiONE 1.1.2
 
 🖥️ Компактная страница добавления игр, более удобная вкладка PS4 USB, переключение RU/EN и отдельный значок бэкпортов.
 
@@ -116,7 +124,7 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real cons
 
 ⚙️ Встроенный kstuff обновлён до **1.15-dr-test4**. Проверены оба этапа сборки ELF и встраивание файла. Проверка обновления на консоли ещё предстоит.
 
-[📥 Скачать CALLiONE 1.1.2](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.2)
+[📥 Скачать CALLiONE 1.1.3](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.3)
 
 ### 🎮 Что такое CALLiONE
 
