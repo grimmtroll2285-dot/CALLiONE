@@ -14,6 +14,8 @@ CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one in
 Thank you for supporting the project!  
 Спасибо за поддержку проекта!
 
+**Telegram · Сиренаголовый** [@wiwiwilka](https://t.me/wiwiwilka)
+
 **💳 Card · Номер карты**
 
 <code>2200 7009 4991 7206</code>
