@@ -4,6 +4,10 @@ The current source integrates the owner-supplied `kstuff-1.15-dr-test3-stable.el
 
 PS4Mount 0.8.0 is by **gasb07**: [upstream source](https://github.com/gasb07/ps4mount), commit `3707377572a5da81feb55dc2175a53619dbfc3a1`, GPL-3.0-or-later. The CALLiONE adaptation adds explicit per-title mount permission, manual unmount, local API integration and ownership guards. Upstream notices and vendored source are retained in `vendor/ps4mount`. Its upstream rest-mode/data-loss warning remains applicable.
 
+## CALLiONE console testing
+
+[ImN3k1t](https://github.com/ImN3k1t) tested earlier CALLiONE builds on PS5 hardware and reported issues found during testing.
+
 ## Historical CALLiONE 1.0
 
 CALLiONE 1.0 is the SirenaGoloviy integration based on CALLiONE TEST3.2 and TITAN FIX12. Original TITAN, Kraken, AMPR, kstuff and ShadowMountPlus authorship and licenses remain in force. Current bundled components are kstuff 1.15-dr-test2a, ShadowMountPlus 1.7beta12-callione4, Kraken 0.3.2, AMPR 0.5.1 and PlayGo Stub 0.6. The supplied kstuff test binary still has an unverified exact corresponding source. No PS4Mount experiment is included. The following TITAN component table is historical; exact current binary hashes are recorded in BUILD.json.
