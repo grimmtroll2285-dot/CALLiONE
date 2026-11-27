@@ -6,6 +6,9 @@
 
 CALLiONE brings system FPKGs, Kraken homebrew and ShadowMount images into one interface for a jailbroken PS5. Each format keeps its own launch path.
 
+❤️ Поддержать проект
+donate: 2200700949917206 💳
+
 [📥 Download CALLiONE 1.1.1](https://github.com/grimmtroll2285-dot/CALLiONE/releases/tag/v1.1.1) · [Try the web demo](https://grimmtroll2285-dot.github.io/CALLiONE/) · [Русский](#callione-ru)
 
 ### 🆕 CALLiONE 1.1.1 is available
