@@ -90,7 +90,7 @@ Thank you for supporting the project!
 
 Built on [TITAN](https://github.com/grimmtroll2285-dot/TITAN) and the TITAN CORE foundation by **devchmod**; [Kraken Mount](https://github.com/quer3q/kraken-mount) and [ampr-emu-ng](https://github.com/quer3q/ampr-emu-ng) by **quer3q**; [kstuff](https://github.com/EchoStretch/kstuff-lite), **EchoStretch** and contributors; [ShadowMountPlus](https://github.com/drakmor/ShadowMountPlus) by **drakmor**; [PS4Mount](https://github.com/gasb07/ps4mount) by **gasb07**; community PlayGo work and the [PS5 payload SDK](https://github.com/ps5-payload-dev/sdk).
 
-Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)** and **[@script_durova](https://t.me/script_durova)** for testing on real consoles. 🤝
+Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)**  for testing on real consoles. 🤝
 
 </details>
 
@@ -148,6 +148,6 @@ Special thanks to **[@ImN3k1t](https://t.me/ImN3k1t)** and **[@script_durova](ht
 
 📸 Скриншоты выше — настоящий предпросмотр интерфейса на ПК с демонстрационными данными, без консоли. Баннер — сгенерированная иллюстрация.
 
-❤️ Спасибо авторам компонентов из блока **Credits & testers**, а также тестерам **[@ImN3k1t](https://t.me/ImN3k1t)** и **[@script_durova](https://t.me/script_durova)** за проверки на настоящих PS5!
+❤️ Спасибо авторам компонентов из блока **Credits & testers**, а также тестерам **[@ImN3k1t](https://t.me/ImN3k1t)** за проверки на настоящих PS5!
 
 </details>
